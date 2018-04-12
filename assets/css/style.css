@@ -1,8 +1,26 @@
 .name_box {
+    height: 100px;
+    width: 50%;
+    background-color: #4aaaa5;
+    float:left;
+    text-align: center;
 
 }
 
 .link_box {
+    height: 100px;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+h2 {
+    color:#4aaaa5;
+    font-weight: bold;
+}
+
+.body_box {
+    width: 960px;
+    height: 1000px;
 
 }
 
@@ -15,5 +33,15 @@
 }
 
 .portfolio_box {
-    
+
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    height:100px;
+    border-top: 5px #4aaaa5 solid;
+    background-color: darkslategrey;
 }
